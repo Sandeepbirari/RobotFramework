@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.10.2 on win32)" generated="20230302 10:45:30.196" rpa="false" schemaversion="3">
+<suite id="s1" name="RobotFramework" source="C:\Users\12011\PycharmProjects\RobotFramework">
+<suite id="s1-s1" name="Tests" source="C:\Users\12011\PycharmProjects\RobotFramework\tests">
+<suite id="s1-s1-s1" name="Testdemo4" source="C:\Users\12011\PycharmProjects\RobotFramework\tests\testdemo4.robot">
+<test id="s1-s1-s1-t1" name="Validate cards display in the shopping page" line="22">
+<kw name="open the browser with the mortagage payment URL" type="SETUP">
+<msg timestamp="20230302 10:45:30.746" level="FAIL">No keyword with name 'open the browser with the mortagage payment URL' found.</msg>
+<status status="FAIL" starttime="20230302 10:45:30.745" endtime="20230302 10:45:30.746"/>
+</kw>
+<status status="FAIL" starttime="20230302 10:45:30.737" endtime="20230302 10:45:30.746">Setup failed:
+No keyword with name 'open the browser with the mortagage payment URL' found.</status>
+</test>
+<test id="s1-s1-s1-t2" name="Fill the login form details" line="29">
+<kw name="open the browser with the mortagage payment URL" type="SETUP">
+<msg timestamp="20230302 10:45:30.755" level="FAIL">No keyword with name 'open the browser with the mortagage payment URL' found.</msg>
+<status status="FAIL" starttime="20230302 10:45:30.755" endtime="20230302 10:45:30.755"/>
+</kw>
+<status status="FAIL" starttime="20230302 10:45:30.747" endtime="20230302 10:45:30.756">Setup failed:
+No keyword with name 'open the browser with the mortagage payment URL' found.</status>
+</test>
+<doc>To validate the login form</doc>
+<status status="FAIL" starttime="20230302 10:45:30.266" endtime="20230302 10:45:30.757"/>
+</suite>
+<status status="FAIL" starttime="20230302 10:45:30.262" endtime="20230302 10:45:30.761"/>
+</suite>
+<status status="FAIL" starttime="20230302 10:45:30.227" endtime="20230302 10:45:30.762"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="RobotFramework">RobotFramework</stat>
+<stat pass="0" fail="2" skip="0" id="s1-s1" name="Tests">RobotFramework.Tests</stat>
+<stat pass="0" fail="2" skip="0" id="s1-s1-s1" name="Testdemo4">RobotFramework.Tests.Testdemo4</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230302 10:45:30.735" level="ERROR">Error in file 'C:\Users\12011\PycharmProjects\RobotFramework\tests\testdemo4.robot' on line 8: Resource file 'resource.robot' does not exist.</msg>
+</errors>
+</robot>

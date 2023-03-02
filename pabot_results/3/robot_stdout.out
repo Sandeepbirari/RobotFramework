@@ -1,0 +1,43 @@
+==============================================================================
+RobotFramework                                                                
+==============================================================================
+RobotFramework.Tests                                                          
+==============================================================================
+RobotFramework.Tests.Testdemo4 :: To validate the login form                  
+==============================================================================
+Validate cards display in the shopping page                             
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\12011\PycharmProjects\RobotFramework\tests\testdemo4.robot:22
+    T:  Validate cards display in the shopping page    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\12011\PycharmProjects\RobotFramework\tests\testdemo4.robot:6
+      open the browser with the mortagage payment URL    
+______________________________________________________________________________
+| FAIL |
+Setup failed:
+No keyword with name 'open the browser with the mortagage payment URL' found.
+------------------------------------------------------------------------------
+Fill the login form details                                             
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\12011\PycharmProjects\RobotFramework\tests\testdemo4.robot:29
+    T:  Fill the login form details    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\12011\PycharmProjects\RobotFramework\tests\testdemo4.robot:6
+      open the browser with the mortagage payment URL    
+______________________________________________________________________________
+| FAIL |
+Setup failed:
+No keyword with name 'open the browser with the mortagage payment URL' found.
+------------------------------------------------------------------------------
+RobotFramework.Tests.Testdemo4 :: To validate the login form          | FAIL |
+2 tests, 0 passed, 2 failed
+==============================================================================
+RobotFramework.Tests                                                  | FAIL |
+2 tests, 0 passed, 2 failed
+==============================================================================
+RobotFramework                                                        | FAIL |
+2 tests, 0 passed, 2 failed
+==============================================================================
+Output:  C:\Users\12011\PycharmProjects\RobotFramework\pabot_results\3\output.xml

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.10.2 on win32)" generated="20230302 10:45:30.180" rpa="false" schemaversion="3">
+<suite id="s1" name="RobotFramework" source="C:\Users\12011\PycharmProjects\RobotFramework">
+<suite id="s1-s1" name="Tests" source="C:\Users\12011\PycharmProjects\RobotFramework\tests">
+<suite id="s1-s1-s1" name="Testdemo1" source="C:\Users\12011\PycharmProjects\RobotFramework\tests\testdemo1.robot">
+<test id="s1-s1-s1-t1" name="Validate UnSuccessful Login" line="7">
+<kw name="open the browser with the mortagage payment URL">
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<arg>Chrome</arg>
+<arg>executable_path=C:\\Sandeep_Python\\chromedriver_win32\\chromedriver.exe</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<msg timestamp="20230302 10:45:30.751" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<status status="PASS" starttime="20230302 10:45:30.750" endtime="20230302 10:45:33.489"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>https://rahulshettyacademy.com/loginpagePractise/</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20230302 10:45:33.491" level="INFO">Opening url 'https://rahulshettyacademy.com/loginpagePractise/'</msg>
+<status status="PASS" starttime="20230302 10:45:33.490" endtime="20230302 10:45:34.866"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20230302 10:45:34.866" endtime="20230302 10:45:35.319"/>
+</kw>
+<status status="PASS" starttime="20230302 10:45:30.749" endtime="20230302 10:45:35.320"/>
+</kw>
+<kw name="Fill the login form">
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath://input[@id='username']</arg>
+<arg>sandeepbirari</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230302 10:45:35.351" level="INFO">Typing text 'sandeepbirari' into text field 'xpath://input[@id='username']'.</msg>
+<status status="PASS" starttime="20230302 10:45:35.322" endtime="20230302 10:45:36.358"/>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<arg>xpath://input[@id='password']</arg>
+<arg>Sandy@123</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<msg timestamp="20230302 10:45:36.364" level="INFO">Typing password into text field 'xpath://input[@id='password']'.</msg>
+<msg timestamp="20230302 10:45:36.620" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20230302 10:45:37.072" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20230302 10:45:36.360" endtime="20230302 10:45:37.073"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>xpath://input[@type='submit']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20230302 10:45:37.082" level="INFO">Clicking button 'xpath://input[@type='submit']'.</msg>
+<status status="PASS" starttime="20230302 10:45:37.073" endtime="20230302 10:45:37.446"/>
+</kw>
+<status status="PASS" starttime="20230302 10:45:35.320" endtime="20230302 10:45:37.447"/>
+</kw>
+<kw name="wait until it checks and display display error message">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>css:.alert-danger</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230302 10:45:37.452" endtime="20230302 10:45:39.457"/>
+</kw>
+<status status="PASS" starttime="20230302 10:45:37.449" endtime="20230302 10:45:39.459"/>
+</kw>
+<kw name="verify error message is correct">
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${result}</var>
+<arg>css:.alert-danger</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<msg timestamp="20230302 10:45:39.673" level="INFO">${result} = Incorrect username/password.</msg>
+<status status="PASS" starttime="20230302 10:45:39.464" endtime="20230302 10:45:39.673"/>
+</kw>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<arg>${result}</arg>
+<arg>Incorrect username/password.</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" starttime="20230302 10:45:39.673" endtime="20230302 10:45:39.677"/>
+</kw>
+<status status="PASS" starttime="20230302 10:45:39.461" endtime="20230302 10:45:39.680"/>
+</kw>
+<status status="PASS" starttime="20230302 10:45:30.747" endtime="20230302 10:45:39.681"/>
+</test>
+<doc>To validate the login form</doc>
+<status status="PASS" starttime="20230302 10:45:30.248" endtime="20230302 10:45:39.687"/>
+</suite>
+<status status="PASS" starttime="20230302 10:45:30.245" endtime="20230302 10:45:39.690"/>
+</suite>
+<status status="PASS" starttime="20230302 10:45:30.200" endtime="20230302 10:45:39.694"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="RobotFramework">RobotFramework</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Tests">RobotFramework.Tests</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="Testdemo1">RobotFramework.Tests.Testdemo1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

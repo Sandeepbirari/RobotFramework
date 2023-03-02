@@ -1,0 +1,42 @@
+==============================================================================
+RobotFramework                                                                
+==============================================================================
+RobotFramework.Tests                                                          
+==============================================================================
+RobotFramework.Tests.Testdemo3 :: To validate the login form                  
+==============================================================================
+Validate UnSuccessful Login                                             
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\12011\PycharmProjects\RobotFramework\tests\testdemo3.robot:14
+    T:  Validate UnSuccessful Login    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\12011\PycharmProjects\RobotFramework\tests\testdemo3.robot:5
+      open the browser with the mortagage payment URL    
+______________________________________________________________________________
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\12011\PycharmProjects\RobotFramework\tests\testdemo3.robot:14
+    T:  Validate UnSuccessful Login    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\12011\PycharmProjects\RobotFramework\tests\testdemo3.robot:6
+      Close browser session    
+______________________________________________________________________________
+| FAIL |
+Setup failed:
+No keyword with name 'open the browser with the mortagage payment URL' found.
+
+Also teardown failed:
+No keyword with name 'Close browser session' found. Did you try using keyword 'SeleniumLibrary.Close Browser' and forgot to use enough whitespace between keyword and arguments?
+------------------------------------------------------------------------------
+RobotFramework.Tests.Testdemo3 :: To validate the login form          | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+RobotFramework.Tests                                                  | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+RobotFramework                                                        | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\12011\PycharmProjects\RobotFramework\pabot_results\2\output.xml

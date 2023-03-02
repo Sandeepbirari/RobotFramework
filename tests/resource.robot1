@@ -1,0 +1,21 @@
+#resource file is used to store reusable functions ,variables, required for our project
+#like a base file
+*** Settings ***
+Documentation    To validate the login form
+Library    SeleniumLibrary
+Library    Collections
+#Test Teardown    Close Browser
+
+*** Variables ***
+${user_name}     rahulshettyacademy
+${invalid_pass}  Sandy@123
+${valid_pass}   learning
+${url}      https://rahulshettyacademy.com/loginpagePractise/
+*** Keywords ***
+open the browser with the mortagage payment URL
+    Create Webdriver     Chrome  executable_path=C:\\Sandeep_Python\\chromedriver_win32\\chromedriver.exe
+    Go To   ${url}
+    Maximize Browser Window
+
+Close browser session
+    Close Browser
